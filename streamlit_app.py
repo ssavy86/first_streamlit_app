@@ -45,6 +45,7 @@ streamlit.dataframe(fruityvice_normalized)
 import pandas
 import requests
 import snowflake.connector
+from urllib.error import URLError
 
 streamlit.stop()
 
